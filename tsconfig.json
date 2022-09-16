@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "build",
+    "declaration": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "lib": ["dom", "esnext"],
+    "strict": true,
+    "types": ["node"]
+  },
+  "include": ["src", "typings.d.ts"],
+  "exclude": ["node_modules", "build"],
+}
