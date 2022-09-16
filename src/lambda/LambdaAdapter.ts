@@ -37,6 +37,7 @@ export class LambdaAdapter extends DoFunctionAdapter {
   constructor(options: Options) {
     super();
     this._handler = options.handler;
+    this.main = this.main.bind(this);
   }
 
   protected getRemainingTimeInMillis() {

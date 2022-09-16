@@ -8,6 +8,7 @@ export class ExpressAdapter extends DoFunctionAdapter {
   constructor(app: ExpressApp) {
     super()
     this._app = app
+    this.main = this.main.bind(this);
   }
 
   public main(args: MainArgs) {
