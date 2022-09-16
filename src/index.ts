@@ -9,4 +9,7 @@ export {
   Context,
   LambdaAdapter
  } from './lambda'
-
+export {
+  ApolloGraphQLAdapter,
+  ApolloServer
+} from './apollo-graphql'
