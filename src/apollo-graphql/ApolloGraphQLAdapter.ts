@@ -1,5 +1,4 @@
-import { ExpressApp } from "@adobe/openwhisk-action-utils";
-import { ApolloServerBase, ApolloServerPluginLandingPageGraphQLPlayground, Config } from "apollo-server-core";
+import { Config } from "apollo-server-core";
 import { DoFunctionAdapter, MainArgs, MainFn } from "../DoFunctionAdapter";
 import { ApolloServer } from "./ApolloServer";
 
