@@ -60,7 +60,7 @@ export class LambdaAdapter extends DoFunctionAdapter {
     const ctx = this.getContext(args);
 
     try {
-      if (this._handler.length >= 2) {
+      if (this._handler.length > 2) {
         return new Promise((resolve, reject) => {
           const callback: Callback = (error, result) => {
             if (error) {
